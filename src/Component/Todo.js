@@ -21,7 +21,8 @@ handledelete=(id)=>{
      })
      this.setState({
         task:[...narr]
-     })
+     }
+    )
 }
 handleshumit=()=>{
     this.setState({
